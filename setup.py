@@ -20,6 +20,9 @@ Contributions highly encouraged/welcome!
     install_requires=[
         'txtorcon>=0.14.0',
         'click>=5.1',
+        'pyOpenSSL>=0.15.1',
+        'service_identity>=14.0.0',
+        'lxml>=3.4.4',
     ],
     entry_points={
         'console_scripts': [
